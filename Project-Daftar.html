@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> Kosan Ibu Indah </title>
+        <link rel="stylesheet" type="text/css" href="Style-Daftar.css">
+    </head>
+    <body>
+        <div class="kotak">
+            <form>
+                <table>
+                    <center>
+                    <tr>
+                        <td colspan="9"><h2><center>DAFTAR</center></h2><br></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Nama" >Nama Lengkap</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="nama" placeholder="Masukkan Nama"></td>
+                        <td><label for="jk" >Jenis Kelamin</label></td>
+                        <td>:</td>
+                        <td><select nama="jk"><br>
+                            <option value="Perempuan">Perempuan</option>
+                            <option value="Laki-Laki">Laki-Laki</option>
+                        </select>
+                    </tr>
+                    <tr>
+                        <td><label for="pekerjaan" >Pekerjaan saat ini</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="pekerjaan" placeholder="Masukkan Pekerjaanmu"></td>
+                        <td><label for="tanggallahir">Tanggal Lahir :</label></td>
+                        <td>:</td>
+                        <td><Input type="date" name="tanggallahir"></td>
+                    </tr> 
+                    <tr>
+                        <td><label for="notelp">No. Telp</label></td>
+                        <td>:</td>
+                        <td><input type="text" name="notelp" maxlength="12" placeholder="Masukkan no. Telp"></td>
+                        <td><label for="email">Email</label></td>
+                        <td>:</td>
+                        <td><input type="email" name="email" placeholder="Masukkan Email"></td>
+                    </tr>
+                    <tr> 
+                        <td> <label for="Kewarganegaraan">Kewarganegaraan</label></td>
+                            <td>:</td>
+                            <td><select nama="Kewarganegaraan"><br>
+                                <option value="WNI">WNI</option>
+                                <option value="WNA">WNA</option>
+                            </select>
+                        </td>
+                        <td> <label for="Agama">Agama</label></td>
+                            <td>:</td>
+                            <td><select nama="Agama"><br>
+                                <option value="islam">Islam</option>
+                                <option value="hindu">Hindu</option>
+                                <option value="Budha">Budha</option>
+                                <option value="Protestan">Protstan</option>
+                                <option value="Konghuchu">Konghuchu</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="Alamat">Alamat saat ini</label></td>
+                        <td>:</td>
+                        <td colspan="4"><textarea nama="Alamat" placeholder="Masukkan Alamat" rows="5" cols="67"></textarea></td>
+                    </tr>  
+                    <tr>
+                        <td>Masukkan Pas Foto</td>
+                        <td>:</td>
+                        <td colspan="6"><label for="myfile"></label>
+                        <input type="file" name="myfile"></td>
+                    </tr>
+                    <tr><td><br></td></tr>
+                    <tr>
+                        <td colspan="6"><center><input type="submit" name="submit">
+                        <input type="reset" name="reset"></center></td>
+                    </tr>
+                    </center>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
